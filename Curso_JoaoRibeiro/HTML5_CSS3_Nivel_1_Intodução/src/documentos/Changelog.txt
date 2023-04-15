@@ -1,0 +1,25 @@
+Changelog
+CHANGELOG
+Atualizado em: 01.04.2023
+
+01.04.2023
+
+Adicionado novo módulo de JavaScript AJAX (Callbacks, Promises, Async & Await, XMLHttpRequest, Fetch API, jQuery Ajax e Axios)
+
+Mais 7 exercícios adicionados no módulo de Exercícios de JavaScript.
+
+11.03.2023
+
+Mais 6 exercícios adicionados no módulo de Exercícios de JavaScript.
+
+01.03.2023
+
+Adicionado novo módulo de conteúdo dinâmico com exercícios de JavaScript e os primeiros 5 exercícios. Este módulo irá ser regularmente atualizado com novos exercícios de grau de complexidade cada vez mais elevada.
+
+25.02.2023
+
+Adicionado changelog que permite aos alunos estarem sistematicamente informados sobre novos conteúdos adicionados ao curso, bem como ajustamentos e edição de conteúdos existentes.
+
+08.02.2023
+
+Lançamento do curso.
