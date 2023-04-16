@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
+}
+
+p{
+    background-color: black;
+    font-size: 18px;
+}
+
+li{
+    background-color: yellow;
+    color: black;
+}
+
+small{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.cor{
+    background: green;
+}
+
+.red{
+    background: red;
+}
+
+#cor2{
+    background: blue;
+    color: white;
+}
+
+#paragrafo1{
+    background: violet;
+    color: black;
+}
