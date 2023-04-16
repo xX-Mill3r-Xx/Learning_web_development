@@ -1,0 +1,21 @@
+div.teste {
+    background-color: red;
+}
+
+.a {
+    background-color: blue;
+}
+
+.b {
+    background-color: blueviolet;
+}
+
+li, span {
+    background-color: green;
+    color: white;
+}
+
+div li.a {
+    background: yellow;
+    color: black;
+}

@@ -1,13 +1,13 @@
-h1{
+h1 {
     color: white;
-    text-shadow: 1px 2px 3px black;
+    text-shadow: 1px 2px 3px rgb(3, 3, 3);
     text-align: center;
     font-size: 45x;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.modulo01 h2{
-    background-color: #000000;
+.modulo01 h2 {
+    background-color: rgb(33, 66, 99);
     padding: 9px;
     margin: 3px;
     align-items: center;
@@ -16,11 +16,11 @@ h1{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.modulo01 nav{
+.modulo01 nav {
     padding: 30px;
 }
 
-.modulo01 a{
+.modulo01 a {
     color: #ffffff;
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
@@ -28,12 +28,12 @@ h1{
     cursor: pointer;
 }
 
-.modulo01 a:hover{
+.modulo01 a:hover {
     color: #ff7300;
 }
 
-.modulo02 h2{
-    background-color: #000000;
+.modulo02 h2 {
+    background-color: rgb(33, 66, 99);
     padding: 9px;
     margin: 3px;
     align-items: center;
@@ -42,11 +42,11 @@ h1{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.modulo02 nav{
+.modulo02 nav {
     padding: 30px;
 }
 
-.modulo02 a{
+.modulo02 a {
     color: #ffffff;
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
@@ -54,6 +54,6 @@ h1{
     cursor: pointer;
 }
 
-.modulo02 a:hover{
+.modulo02 a:hover {
     color: #ff7300;
 }

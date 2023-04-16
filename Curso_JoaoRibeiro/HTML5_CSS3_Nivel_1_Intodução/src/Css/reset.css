@@ -1,26 +1,26 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(36, 63, 180);
 }
 
-a{
+a {
     text-decoration: none;
     padding: 3px;
     margin: 3px;
 }
 
 footer {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
-  }
+    width: 90%;
+}
 
 
-footer .git{
+footer .git {
     width: 15px;
     padding-right: 9px;
 }
