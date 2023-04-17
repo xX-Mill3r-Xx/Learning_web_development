@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body{
+    color: white;
+}
+
+/*---geral---*/
+
+.text-center{
+    text-align: center;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+/*---cabecalho---*/
+
+.container-cabecalho{
+    text-align: center;
+    padding: 30px;
+    background-color: #04233F;
+}
+
+.container-cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190FF;
+}
+
+/*---navegação---*/
+.container-navegacao{
+    text-align: center;
+    padding: 30px;
+    background: #06345D;
+}
+
+.container-navegacao a{
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #7cc2ff;
+}
+
+.container-navegacao a:hover{
+    color: white;
+    transition: all 0.3s;
+}
+
+/*---quem somos---*/
+.container-quem-somos{
+    background-color: #05192a;
+    overflow: auto;
+}
+
+.container-quem-somos .servico{
+    float: center;
+    margin: 60px auto;
+    background-color: #061f35;
+    width: 60%;
+    padding: 30px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.container-quem-somos .servico .icone{
+    margin-bottom: 9px;
+}
+
+.container-quem-somos .servico-texto{
+    margin-top: 18px;
+    font-size: 1.2em;
+    color: #81caff;
+}
+
+.container-quem-somos .servico-texto-realce{
+    color: white;
+    font-weight: bold;
+}
+
+/*---servicos contatos---*/
+.container-servicos-contatos{
+    background-color: #082946;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.container-servicos-contatos .botoes-servicos-contatos{
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contatos a{
+    display: block;
+    max-width: 180px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 18px 60px;
+    margin: 9px auto;
+    border-radius: 9px;
+}
+
+.botoes-servicos-contatos a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 1.5s;
+}
+
+/*---footer---*/
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #02111f;
+    color: gray;
+}

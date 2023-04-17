@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div p{
+    margin: 50px;
+}
+
+.layout {
+    margin: 50px;
+    text-align: center;
+}
+
+.link {
+
+    text-decoration: none;
+    background-color: rgb(35, 122, 236);
+    color: white;
+    min-width: 300px;
+    padding: 9px 30px;
+    border-radius: 9px;
+}
+
+.link:hover {
+    background-color: aqua;
+    color: rgb(119, 119, 119);
+}
