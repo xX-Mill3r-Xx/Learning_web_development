@@ -1,0 +1,172 @@
+/*Seletor Universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+:root {
+    --primary: #4d3e6b;
+    --black: #000000;
+    --white: #ffffff;
+    --secondary: #81749c;
+    --third: #8daec3;
+    --light: #c5dfe0;
+    --backlight: #fcfce2;
+}
+
+/*---Body---*/
+body{
+    color: #ffffff;
+    background: var(--third);
+}
+/*---Body---*/
+
+/*---geral---*/
+.text-center{
+    text-align: center;
+}
+
+.marin-top-30{
+    margin-top: 30px;
+}
+/*---geral---*/
+
+.navbar-titulo{
+    background-color: #000000;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar-titulo a{
+    color: white;
+    font-weight: 600;
+    padding: 90px;
+}
+
+.navbar-titulo a:hover{
+    color: var(--secondary);
+    font-weight: 600;
+    padding: 90px;
+    transition: all 0.9s;
+}
+
+/*---Cabeçalho---*/
+.cabecalho .logo{
+    width: 15%;
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary)
+}
+
+.cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--light);
+    text-shadow: 1.5px 1.5px 3px var(--black);
+}
+/*---Cabecalho---*/
+
+/*---Navegação---*/
+.navegacao{
+    text-align: center;
+    padding: 30px;
+    background: var(--secondary)
+}
+
+.navegacao a{
+    font-size: 1.2em;
+    margin: 0px 12px;
+    text-decoration: none;
+    color: var(--light)
+}
+
+.navegacao a:hover{
+    color: var(--black);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+/*---Conteudo---*/
+.conteudo{
+    background-color: #05192a;
+    overflow: auto;
+}
+
+.conteudo .aulas{
+    float: center;
+    margin: 60px auto;
+    background-color: #061f35;
+    width: 60%;
+    padding: 30px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.conteudo .aulas .conteudo-texto{
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.conteudo .list{
+    background-color: var(--primary);
+    padding: 9px;
+    border-radius: 9px;
+    list-style: none;
+}
+
+.conteudo li{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+
+.conteudo li:hover{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: var(--black);
+}
+
+.conteudo .list:hover{
+    cursor: pointer;
+    background-color: var(--third);
+    padding: 9px;
+    border-radius: 9px;
+    list-style: none;
+    transition: all 3s;
+}
+
+.conteudo .list .link a{
+    color: white;
+    
+}
+
+.conteudo .image-exemplo{
+    width: 300px;
+    border-radius: 9px;
+    border: 1px solid var(--black);
+}
+
+footer{
+    background: var(--primary);
+    text-align: center;
+    height: 23px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--black);
+    font-weight: 600;
+}
