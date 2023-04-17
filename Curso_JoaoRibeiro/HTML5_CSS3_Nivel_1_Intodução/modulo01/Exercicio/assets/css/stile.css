@@ -123,3 +123,70 @@ footer{
     background-color: #02111f;
     color: gray;
 }
+
+/*---Pagina serviços---*/
+.container-servicos{
+    background-color: #05192a;
+    font-size: 1.2em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.container-servicos h3{
+    font-size: 1.5em;
+    color: #2097ff;
+    padding: 18px 0;
+    margin: 18px;
+}
+
+.container-servicos article{
+    width: 30%;
+    margin: auto;
+    float: center;
+}
+
+.container-servicos li{
+    margin-bottom: 18px;
+    margin-left: 30px;
+    color: white;
+}
+
+/*---Pagina contatos---*/
+
+.container-contatos{
+    background-color: #05192a;
+    padding: 72px;
+}
+
+.container-contatos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.container-contatos h3{
+    font-size: 1.2em;
+    font-weight: 100;
+    width: 60%;
+    margin: auto;
+    color: white;
+    margin-bottom: 18px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    border-radius: 9px;
+    padding: 18px;
+}
+
+.container-contatos .contactos{
+    display: block;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 15px;
+}
