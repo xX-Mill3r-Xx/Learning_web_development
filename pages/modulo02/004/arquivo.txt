@@ -1,0 +1,8 @@
+O elemento <a> em HTML5 possui um atributo chamado "download" que permite que os usuários baixem um arquivo quando clicam em um link, em vez de abrir o arquivo no navegador. Esse atributo é muito útil para permitir que os usuários baixem arquivos importantes, como documentos PDF, arquivos ZIP, imagens, vídeos etc.
+
+Ao usar o atributo "download", você pode especificar o nome do arquivo que o usuário irá baixar. Por exemplo:
+
+<a href="arquivo.txt" download="meu-arquivo.txt">Clique aqui para baixar o arquivo</a>
+Neste exemplo, o usuário irá baixar o arquivo "arquivo.pdf" e o nome do arquivo será "meu-arquivo.pdf". Quando o usuário clicar no link, o arquivo será baixado em vez de ser aberto no navegador.
+
+É importante notar que nem todos os navegadores suportam o atributo "download" e que ele pode ser restrito por políticas de segurança, como no caso do download de executáveis. Além disso, o download de arquivos grandes pode levar algum tempo e consumir muita banda, o que pode ser um problema para usuários com conexões lentas ou limitadas.

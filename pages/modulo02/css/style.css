@@ -63,3 +63,53 @@ a:hover{
     box-shadow: 3px 3px 3px #1a1919;
     background: rgb(197, 197, 185);
 }
+
+.tabela{
+    display: flex;
+    float: left;
+    padding: 6px;
+    margin: 30px;
+    background-color: #1a1919;
+    border:  1px solid black;
+    box-shadow: 3px 3px 3px #1a1919;
+}
+
+.tabela table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabela th, td{
+    padding: 9px;
+}
+
+.tabela th{
+    background-color: blue;
+    color: white;
+}
+
+.tabela-2{
+    display: flex;
+    float: right;
+    padding: 6px;
+    margin: 30px;
+    background-color: #1a1919;
+    border:  1px solid black;
+    box-shadow: 3px 3px 3px #1a1919;
+}
+
+.tabela-2 table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabela-2 th, td{
+    padding: 9px;
+}
+
+.tabela-2 th{
+    background-color: rgb(9, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+

@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table, th, td {
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+td {
+    background-color: beige;
+}
+
+table {
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.tabela {
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
