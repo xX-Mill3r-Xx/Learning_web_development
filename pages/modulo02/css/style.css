@@ -112,4 +112,14 @@ a:hover{
     color: rgb(0, 0, 0);
 }
 
+/*Formularios*/
+
+.form-container{
+    width: 60%;
+    margin: auto;
+}
+
+.form-group{
+    margin-bottom: 9px;
+}
 

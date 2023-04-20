@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 008</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Formularios</h1>
+        <h2 class="sub-titulo">introdução ao uso de formularios</h2>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+                <!--text-->
+                <div class="form-group">
+                    <input type="text" name="campo_texto" minlength="3" maxlength="20" required placeholder="Nome" value="João">
+                </div>
+
+                <!--emails-->
+                <div class="form-group">
+                    <input type="email" name="campo_email">
+                </div>
+
+                <!--senha-->
+                <div class="form-group">
+                    <input type="password" name="campo_senha">
+                </div>
+
+                <!--numeros-->
+                <div class="form-group">
+                    <input type="number" name="campo_numero" min="0" max="10">
+                </div>
+
+                <!--url-->
+                <div class="form-group">
+                    <input type="url" name="campo_url">
+                </div>
+
+                <!--submit-->
+                <div class="form-group">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
