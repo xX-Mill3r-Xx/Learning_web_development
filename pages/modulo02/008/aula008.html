@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Aula 008</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
         <h1 class="titulo">Formularios</h1>
@@ -18,17 +20,21 @@
 
                 <!--text-->
                 <div class="form-group">
-                    <input type="text" name="campo_texto" minlength="3" maxlength="20" required placeholder="Nome" value="João">
+                    <label for="campo_texto">usuario: </label>
+                    <input type="text" name="campo_texto" id="campo_texto" minlength="3" maxlength="20" required
+                        placeholder="Nome" value="João">
                 </div>
 
                 <!--emails-->
                 <div class="form-group">
-                    <input type="email" name="campo_email">
+                    <label for="campo_email">email: </label>
+                    <input type="email" name="campo_email" id="campo_email">
                 </div>
 
                 <!--senha-->
                 <div class="form-group">
-                    <input type="password" name="campo_senha">
+                    <label for="campo_senha">senha: </label>
+                    <input type="password" name="campo_senha" id="campo_senha">
                 </div>
 
                 <!--numeros-->
@@ -41,12 +47,126 @@
                     <input type="url" name="campo_url">
                 </div>
 
+                <!--data-->
+                <div class="form-group">
+                    <input type="date" name="data">
+                </div>
+
+                <!--tempo-->
+                <div class="form-group">
+                    <input type="time" name="time">
+                </div>
+
+                <!--semana-->
+                <div class="form-grou">
+                    <input type="week" name="semana">
+                </div>
+
+                <!--mes-->
+                <div class="form-group">
+                    <input type="month" name="mes">
+                </div>
+
+                <!--hora local-->
+                <div class="form-group">
+                    <input type="datetime-local" name="hora-local">
+                </div>
+
+                <!--color-->
+                <div class="form-group">
+                    <label for="cor">color</label>
+                    <input type="color" name="cor" value="#ffffff">
+                </div>
+
+                <!--checkbox-->
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="check_atualizar" value="ATUALIZAR">
+                        ATUALIZAR OS DADOS AUTOMATICAMENTE
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="check_salvar" value="SALVAR">
+                        SALVAR TODA A INFORMAÇÃO AUTOMATICAMENTE
+                    </label>
+                </div>
+
+                <!--radio box-->
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="campo_radio" value="Masculino" checked>
+                    </label> Masculino
+                    <label>
+                        <input type="radio" name="campo_radio" value="Feminino">
+                    </label> Feminino
+                </div>
+
+                <!--range-->
+                <div class="form-group">
+                    <input type="range" name="campo_range" min="0" max="100" step="10" oninput="mostrar(this.value)">
+                    <p id="valor_range"></p>
+                </div>
+
+                <!--select-->
+                <div class="form-group">
+                    <label>Selecione uma opção
+                        <select name="campo_selacao" id="">
+                            <option value="pr-br">Portugues</option>
+                            <option value="en" selected>English</option>
+                        </select>
+                    </label>
+                </div>
+
+                <!--textarea-->
+                <div class="form-group">
+                    <textarea name="campode_texto" id="" cols="40" rows="4" wrap="hard"></textarea>
+                </div>
+
+                <!--datalist-->
+                <div class="form-group">
+                    <label for="campo_opcoes">Indique a opção</label>
+                    <input type="text" name="campo_opcao" id="campo_opcoes" list="lista_dados">
+                    <datalist id="lista_dados">
+                        <option value="portugla">
+                        <option value="brasil">
+                        <option value="angola">
+                        <option value="mocambique">
+                    </datalist>
+                </div>
+
+                <!--fildset-->
+                <fieldset>
+                    <legend>dados pessoais</legend>
+                    <div class="form-group">
+                        <label for="">Nome</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Apelido</label>
+                        <input type="text">
+                    </div>
+                </fieldset>
+
+
+                <!--hiden-->
+                <input type="hidden" name="campo_escondido" value="escondido">
+
+                <hr>
                 <!--submit-->
                 <div class="form-group">
                     <input type="submit" value="Enviar">
+                    <input type="reset" value="Clear">
                 </div>
             </form>
         </div>
     </main>
+
+    <script>
+        function mostrar(value) {
+            document.getElementById("valor_range").innerHTML = value
+        }
+    </script>
 </body>
+
 </html>
