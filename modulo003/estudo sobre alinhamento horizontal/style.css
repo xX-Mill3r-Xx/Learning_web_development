@@ -1,0 +1,18 @@
+body{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center; /*alinhamento central do paragrafo*/
+    font-family: 'Courier New', Courier, monospace; /*familia da fonte*/
+    font-weight: bold; /*espessura*/
+}
+
+p{
+    text-align: start; /*direção do paragrafo*/
+    direction: ltr; /*Dirição onde o texto vai começar*/
+    line-height: 30px; /*espaçamento entre as linhas do texto*/
+    letter-spacing: 0.03em; /*epaçamento entre as letras*/
+    word-spacing: 0.03em; /*epaçamento entre palavras*/
+}
