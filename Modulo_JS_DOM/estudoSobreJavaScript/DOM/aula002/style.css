@@ -1,0 +1,41 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    margin: 50px auto;
+    width: 70vw;
+}
+
+.texto-titulo{
+    color: white;
+    font-size: 1.5em;
+}
+
+#sumario{
+    font-size: 1.2em;
+    color: rgb(255,255,107);
+}
+
+.cor-texto-noticia{
+    color: lightgray;
+}
+
+.outra-noticia{
+    display: inline;
+    text-decoration: nome;
+    color: rgb(15,207,255);
+}
+
+.outra-noticia:houver{
+    text-decoration: underline;
+    color: rgb(255,255,107);
+}
