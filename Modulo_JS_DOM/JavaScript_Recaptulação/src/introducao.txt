@@ -1,0 +1,27 @@
+O que é o JavaScript?
+O JavaScript é a mais popular linguagem de programação de scripts para execução do lado do cliente - FrontEnd.
+
+Foi criada para adicionar interatividade e dinamismo ao HTML. JavaScript e ECMAScript representam a mesma coisa e são a mesma linguagem.
+
+Neste módulo, vamos estudar o básico de JavaScript de um modo geral - Fundamentos, e como usar o JavaScript dentro do HTML.
+
+Vamos estudar o JavaScript dentro do ambiente de navegador.
+
+Uma breve explicação sobre o que é possível fazer com o JavaScript dentro de uma página web:
+
+- Podemos alterar o conteúdo dos elementos HTML.
+- Podemos modificar o conteúdo de uma página web.
+- Alterar os estilos e posicionamento dos elementos na página.
+- Reagir a determinados eventos, como um clique em um botão.
+- Executar transições e animações.
+- Validar a submissão de formulários e muito mais...
+
+Como vamos estudar?
+
+- Vamos aprender como escrever um script de JavaScript.
+- Como inserir um script dentro do documento HTML.
+- Como verificar os resultados pretendidos.
+- Perceber os conceitos fundamentais da linguagem.
+- Usar o JavaScript para acrescentar interatividade nos projetos.
+
+Importante: A maior parte dos conceitos deste módulo são importantes para aprender a usar bibliotecas como React, Vue, Angular e outras.

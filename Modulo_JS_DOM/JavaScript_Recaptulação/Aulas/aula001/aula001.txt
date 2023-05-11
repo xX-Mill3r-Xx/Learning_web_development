@@ -1,0 +1,5 @@
+Como adicionar JavaScript ao HTML?
+Existem três formas tradicionais de adicionar código JavaScript ao HTML:
+- Dentro de uma tag `<script>` no HTML.
+- Importação de arquivos externos para o HTML.
+- Adicionar código JS diretamente nos atributos (menos comum).

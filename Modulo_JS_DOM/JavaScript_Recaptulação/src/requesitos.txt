@@ -1,0 +1,6 @@
+REQUISITOS BÁSICOS PARA O ESTUDO DESTE MÓDULO:
+- Conhecimentos sólidos de HTML e CSS básicos.
+- Editor de código Visual Studio Code (com as extensões Live Server e outras indicadas no curso).
+- Navegador Google Chrome ou Microsoft Edge (com as ferramentas do programador).
+
+Todo o código deste módulo está disponível na página de recursos sobre o módulo no curso.
