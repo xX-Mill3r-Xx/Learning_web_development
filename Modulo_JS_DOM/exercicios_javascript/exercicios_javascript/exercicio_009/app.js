@@ -8,3 +8,11 @@ Enunciado:
 
     NOTA: Deves definir os valores do range.
 ---------------------------------------------------------------------------- */
+const range = document.querySelector("#range");
+const texto = document.querySelector("h3");
+range.setAttribute('min', 0);
+range.setAttribute('max', 100);
+range.value = 0;
+range.addEventListener('input', (el) =>{
+    texto.style.opacity = 1-el.target.value / 100;
+})
