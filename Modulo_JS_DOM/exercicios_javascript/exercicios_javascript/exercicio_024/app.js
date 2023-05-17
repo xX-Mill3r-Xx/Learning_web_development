@@ -25,3 +25,25 @@ Enunciado:
     NOTA: sem perfil, todas as checkboxes devem estar descheckadas.
 
 ---------------------------------------------------------------------------- */
+document.querySelector("#select_perfil").addEventListener("change", () => {
+  const perfil = document.querySelector("#select_perfil").value;
+  const checkboxes = document.querySelectorAll("input[type=checkbox]");
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+
+  if (perfil == "administrador") {
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = true;
+    });
+  } else if (perfil == "coordenador") {
+    checkboxes[4].checked = true;
+    checkboxes[5].checked = true;
+    checkboxes[6].checked = true;
+    checkboxes[7].checked = true;
+  } else if (perfil == "operador") {
+    checkboxes[6].checked = true;
+    checkboxes[7].checked = true;
+  }
+});
