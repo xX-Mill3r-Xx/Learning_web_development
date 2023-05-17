@@ -25,6 +25,4 @@ Este repositório está licenciado sob a Licença MIT. Leia o arquivo LICENSE pa
 
 ### Developer
 
-![logo](src/img/LogoM.svg)
-
 Miller M Vasco
