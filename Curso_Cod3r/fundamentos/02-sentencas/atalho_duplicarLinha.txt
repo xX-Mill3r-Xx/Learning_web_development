@@ -1,0 +1,1 @@
+atalho para duplicar linha (alt+shift+seta_baixo) - obs: codigo selecionado
