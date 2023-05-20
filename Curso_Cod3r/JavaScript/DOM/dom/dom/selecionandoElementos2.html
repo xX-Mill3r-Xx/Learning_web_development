@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Selecionar Elementos #02</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="conteudo exercicio">
+    <div id="primeiro">#primeiro</div>
+    <div>Segundo</div>
+    <div class="terceiro ultimo"><span wb-attrib>.terceiro .ultimo</span></div>
+    <script>              
+        document.querySelector("#primeiro").classList.add('destaque');
+        /*adiciona a classe destaque ao seletor escolhido. Note que, ao usar o querySelector, precisamos passar o # ao informar o ID pois estamos trabalhando com um seletor*/
+
+        document.querySelector("#primeiro").classList.remove('destaque');
+        /*remove a classe destaque*/
+
+        const selecionar = seletor =>
+            document.querySelectorAll(seletor).forEach(e => e.classList.add('destaque')); //função que add a classe a todos o selecionados
+
+        const deselecionar = seletor =>
+        document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque')); //função que remove a classe de todos os selecionados
+        
+        selecionar('div') //seleciona todo elemento div
+        deselecionar('*') //seleciona todos os elementos (* seletor universal)
+        selecionar('.terceiro.ultimo') //seleciona todo elemento que contem a classe .terceiro.ultimo
+        deselecionar('*')
+        selecionar(':not(#primeiro)') //nega todo elemento que tenha o ID primeiro
+        deselecionar('*')
+        selecionar(':nth-child(1)') //seleciona o primeiro elemento filho de um elemento
+        deselecionar('*')
+        selecionar('div:nth-of-type(1)') //seleciona o primeiro elemento do tipo div
+        deselecionar('*')
+        selecionar('[wb-attrib]') //seleciona todos os elemento que contem o atribut wb-attrib
+    </script>
+</body>
+</html>
