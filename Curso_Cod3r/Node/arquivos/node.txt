@@ -1,0 +1,15 @@
+O Node.js é um ambiente de tempo de execução de código aberto e multiplataforma que permite executar JavaScript fora de um navegador. Ele utiliza o mecanismo de JavaScript V8 do Google Chrome para executar código JavaScript no lado do servidor ou em outras aplicações fora do contexto do navegador.
+
+O Node.js foi projetado para ser eficiente e escalável, permitindo a construção de aplicações de rede de alto desempenho. Ele possui uma arquitetura baseada em eventos, utilizando a biblioteca de E/S assíncrona não bloqueante, o que o torna ideal para aplicações que exigem manipulação intensiva de entrada/saída, como servidores web, aplicativos em tempo real, API's, microserviços, entre outros.
+
+Algumas características-chave do Node.js incluem:
+
+1. JavaScript no servidor: Com o Node.js, é possível utilizar a mesma linguagem, JavaScript, tanto no lado do cliente (navegador) quanto no lado do servidor. Isso permite que os desenvolvedores trabalhem com uma única linguagem em todo o stack de desenvolvimento.
+
+2. Arquitetura orientada a eventos: O Node.js utiliza um modelo assíncrono e orientado a eventos, permitindo que várias operações ocorram em paralelo sem bloquear a execução do programa. Isso resulta em uma melhor escalabilidade e eficiência para aplicações que precisam lidar com muitas conexões simultâneas.
+
+3. Ecossistema e gerenciador de pacotes: O Node.js possui um ecossistema robusto de pacotes e bibliotecas de código aberto disponíveis através do seu gerenciador de pacotes npm. O npm facilita a instalação, atualização e gerenciamento de dependências de um projeto Node.js.
+
+4. Ferramentas de linha de comando: O Node.js vem com várias ferramentas de linha de comando úteis, como o próprio npm, que auxiliam no desenvolvimento, teste e depuração de aplicações.
+
+O Node.js é amplamente adotado e utilizado em muitos cenários diferentes, desde pequenos projetos pessoais até grandes empresas. Sua popularidade se deve à sua eficiência, escalabilidade, vasto ecossistema de pacotes e à familiaridade da linguagem JavaScript para muitos desenvolvedores.
