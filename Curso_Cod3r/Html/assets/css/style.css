@@ -31,5 +31,17 @@
 }
 
 #conteudo{
-    padding: 30px 18px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 221, 221);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+#conteudo h1{
+    text-align: center;
+}
+
