@@ -5,7 +5,31 @@
     <meta charset="UTF-8">
     <title>Anatomia CSS</title>
     <style>
-        /* ... */
+        .selector{
+            color: #ffffff;
+            font-size: 30px;
+            font-family: monospace;
+            text-align: center;
+            /*multiplos valores*/
+            border: solid 5px navy; /*shorthand property*/
+            /*Funçoes*/
+            width: calc(100% -40px);
+            background-color: rgb(34, 153, 189);
+        }
+
+        /*Pseudo Classes*/
+        .selector:hover{
+            background-color: rgb(22, 225, 15);
+        }
+
+        /*Pseudo Elementos*/
+        .selector::first-letter{
+            color: red;
+            font-weight: bold;
+        }
+
+        /*Padão de nomeclatura*/
+        /*Podemos usar o padrao camel case desde que mantenhamos o padrao de nomeclatura;*/
     </style>
 </head>
 
