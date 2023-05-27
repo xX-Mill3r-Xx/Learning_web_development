@@ -1,0 +1,1 @@
+Comando para executar o back e front -> npm start
