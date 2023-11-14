@@ -1,1 +1,0 @@
-atalho para comentar uma linha ou varias linhas com maior velocidade. Seleciona o que que comentar e tecle (ctrl + ;)

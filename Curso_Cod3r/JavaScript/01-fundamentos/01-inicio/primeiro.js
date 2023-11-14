@@ -1,1 +1,0 @@
-console.log("primeira page js");
